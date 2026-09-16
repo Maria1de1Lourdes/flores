@@ -15,7 +15,8 @@ ARQUIVO = "flowers.csv"
 # IMAGENS
 # =========================================================
 IMAGEM_HERO = (
-    "https://media.istockphoto.com/id/2143731209/pt/foto/lavender-flowers-close-up-on-sky-background.jpg?s=1024x1024&w=is&k=20&c=kbcVmMD1mM6YXXAX7hwBMCt3Y0OrQcwt5x0iVOYbb_4="
+     "https://media.istockphoto.com/id/2143731209/"
+    "pt/foto/lavender-flowers-close-up-on-sky-background.jpg"
     "?auto=format&fit=crop&w=1800&q=90"
 )
 IMAGEM_FROTA = (
