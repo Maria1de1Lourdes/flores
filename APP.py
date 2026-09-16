@@ -5,12 +5,12 @@ import os
 # CONFIGURAÇÃO DA PÁGINA
 # =========================================================
 st.set_page_config(
-    page_title="AutoCadastro PRO",
-    page_icon="🚗",
+    page_title="Floricultura Lavander",
+    page_icon="🪻",
     layout="wide",
     initial_sidebar_state="expanded"
 )
-ARQUIVO = "carros.csv"
+ARQUIVO = "flowers.csv"
 # =========================================================
 # IMAGENS
 # =========================================================
