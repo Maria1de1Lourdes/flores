@@ -15,13 +15,11 @@ ARQUIVO = "flowers.csv"
 # IMAGENS
 # =========================================================
 IMAGEM_HERO = (
-    "https://images.unsplash.com/"
-    "photo-1492144534655-ae79c964c9d7"
+    "https://media.istockphoto.com/id/2143731209/pt/foto/lavender-flowers-close-up-on-sky-background.jpg?s=1024x1024&w=is&k=20&c=kbcVmMD1mM6YXXAX7hwBMCt3Y0OrQcwt5x0iVOYbb_4="
     "?auto=format&fit=crop&w=1800&q=90"
 )
 IMAGEM_FROTA = (
-    "https://images.unsplash.com/"
-    "photo-1502877338535-766e1452684a"
+    "https://media.istockphoto.com/id/2194076530/pt/foto/summer-flowers.jpg?s=2048x2048&w=is&k=20&c=b_nM89LiBFP0PgoetlGolEJDWnW7nEfYVldq-JPUU-A="
     "?auto=format&fit=crop&w=1200&q=85"
 )
 # =========================================================
