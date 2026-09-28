@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-ARQUIVO = "flowers.csv"
+ARQUIVO = "Flowers.csv"
 # =========================================================
 # IMAGENS
 # =========================================================
@@ -23,6 +23,9 @@ IMAGEM_FROTA = (
     "https://media.istockphoto.com/id/2194076530/pt/foto/summer-flowers.jpg?s=2048x2048&w=is&k=20&c=b_nM89LiBFP0PgoetlGolEJDWnW7nEfYVldq-JPUU-A="
     "?auto=format&fit=crop&w=1200&q=85"
 )
+st.image(IMAGEM_HERO, use_container_width=True)
+
+st.image(IMAGEM_FROTA, use_container_width=True)
 # =========================================================
 # CSS
 # =========================================================
@@ -46,9 +49,9 @@ FUNDO PRINCIPAL
     background:
         linear-gradient(
             135deg,
-            #F0F0E5 0%,
-            #E1E4C8 50%,
-            #D4DCB5 100%
+            #D5D5E7 0%,
+            #8A8ABC 50%,
+            #DCB1DF100%
         );
 }
 /* =========================================================
@@ -66,11 +69,11 @@ SIDEBAR
     background:
         linear-gradient(
             180deg,
-            #162630,
-            #223944
+            #262B53,
+            #333C66
         );
     border-right:
-        2px solid #77864B;
+        2px solid #5A4B86;
 }
 [data-testid="stSidebar"] * {
     color: #FFFFFF !important;
@@ -87,7 +90,7 @@ LOGO
 .logo-subtitle {
     font-size: 11px;
     font-weight: 700;
-    color: #BFCB9C !important;
+    color: #bcdeee !important;
     letter-spacing: 1px;
 }
 /* =========================================================
@@ -96,12 +99,12 @@ TÍTULOS
 .page-title {
     font-size: 38px;
     font-weight: 800;
-    color: #26311F !important;
+    color: #445088 !important;
     margin-bottom: 5px;
 }
 .page-subtitle {
     font-size: 17px;
-    color: #46513B !important;
+    color: #3b3b51 !important;
     margin-bottom: 30px;
 }
 /* =========================================================
@@ -140,7 +143,7 @@ HERO
 .hero-number {
     font-size: 70px;
     font-weight: 800;
-    color: #A4D080 !important;
+    color: #c9f6f0 !important;
     line-height: 1;
 }
 .hero-title {
@@ -185,13 +188,13 @@ CARDS
 .card-number {
     font-size: 34px;
     font-weight: 800;
-    color: #26311F !important;
+    color: #8199bb !important;
     margin-top: 10px;
 }
 .card-label {
     font-size: 14px;
     font-weight: 700;
-    color: #566248 !important;
+    color: #385379 !important;
     margin-top: 5px;
 }
 /* =========================================================
@@ -202,7 +205,7 @@ CARD ESCURO
         linear-gradient(
             135deg,
             #152631,
-            #233C48
+            #232a48
         );
     border-radius: 24px;
     padding: 30px;
@@ -226,7 +229,7 @@ FORMULÁRIO
     padding: 30px;
     border-radius: 25px;
     border:
-        1px solid #B8C391;
+        1px solid #919fc3;
     box-shadow:
         0 10px 30px rgba(0,0,0,0.08);
 }
@@ -253,11 +256,11 @@ INPUTS
 .stNumberInput input,
 .stTextArea textarea {
     background-color: #FFFFFF !important;
-    color: #202820 !important;
+    color: #1f305c !important;
     -webkit-text-fill-color:
-        #202820 !important;
+        #1f305c !important;
     border:
-        2px solid #7C8956 !important;
+        2px solid #566389 !important;
     border-radius: 12px !important;
     font-size: 16px !important;
     font-weight: 500 !important;
@@ -266,13 +269,13 @@ INPUTS
 .stNumberInput input:focus,
 .stTextArea textarea:focus {
     border:
-        2px solid #556B2F !important;
+        2px solid #2f376b !important;
     box-shadow:
         0 0 0 3px rgba(85,107,47,0.15) !important;
 }
 input::placeholder,
 textarea::placeholder {
-    color: #6A7060 !important;
+    color:  !important;
     opacity: 1 !important;
 }
 /* =========================================================
@@ -285,7 +288,7 @@ SELECTBOX - CORREÇÃO DEFINITIVA
         2px solid #687548 !important;
     border-radius: 12px !important;
 }
-/* TEXTO DO VEÍCULO SELECIONADO */
+/* TEXTO DA FLOR SELECIONADA */
 [data-baseweb="select"] > div * {
     color: #FFFFFF !important;
     -webkit-text-fill-color:
@@ -309,25 +312,25 @@ SELECTBOX - CORREÇÃO DEFINITIVA
 }
 /* Hover */
 [data-baseweb="select"] > div:hover {
-    border-color: #A4B66A !important;
+    border-color: #3e2d63 !important;
 }
 /* =========================================================
 MENU ABERTO DO SELECTBOX
 ========================================================= */
 [data-baseweb="popover"] {
-    background-color: #2F323C !important;
+    background-color: #2d3763 !important;
 }
 [data-baseweb="menu"] {
-    background-color: #2F323C !important;
+    background-color: #2d3763 !important;
 }
 [role="option"] {
-    background-color: #2F323C !important;
+    background-color: #2d3763 !important;
     color: #FFFFFF !important;
     -webkit-text-fill-color:
         #FFFFFF !important;
 }
 [role="option"]:hover {
-    background-color: #52632D !important;
+    background-color: #3e2d63 !important;
     color: #FFFFFF !important;
 }
 
@@ -339,8 +342,8 @@ div[data-testid="stFormSubmitButton"] > button {
     background:
         linear-gradient(
             135deg,
-            #52632D,
-            #788B48
+            #3B145C,
+            #F5B7D2
         ) !important;
     color: #FFFFFF !important;
     border: none !important;
@@ -358,8 +361,8 @@ div[data-testid="stFormSubmitButton"] > button:hover {
     background:
         linear-gradient(
             135deg,
-            #3E4E23,
-            #647738
+            #351035,
+            ##e889b4
         ) !important;
     color: #FFFFFF !important;
     transform:
