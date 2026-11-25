@@ -205,7 +205,7 @@ CARD ESCURO
         linear-gradient(
             135deg,
             #152631,
-            #232a48
+            #333e6a
         );
     border-radius: 24px;
     padding: 30px;
@@ -217,7 +217,7 @@ CARD ESCURO
     margin-top: 0;
 }
 .dark-card p {
-    color: #E2E9DA !important;
+    color: #cad7df !important;
     line-height: 1.7;
 }
 /* =========================================================
@@ -225,10 +225,10 @@ FORMULÁRIO
 ========================================================= */
 [data-testid="stForm"] {
     background:
-        rgba(255,255,255,0.85);
-    padding: 30px;
+        rgba();
+    padding: (93,145,197,0.85);
     border-radius: 25px;
-    border:
+    border:30px
         1px solid #919fc3;
     box-shadow:
         0 10px 30px rgba(0,0,0,0.08);
@@ -271,7 +271,7 @@ INPUTS
     border:
         2px solid #2f376b !important;
     box-shadow:
-        0 0 0 3px rgba(85,107,47,0.15) !important;
+        0 0 0 3px rgba( 53,63,91,0.15) !important;
 }
 input::placeholder,
 textarea::placeholder {
@@ -417,7 +417,7 @@ RESPONSIVO
 # =========================================================
 def carregar_dados():
     colunas = [
-        "Marca",
+        "Espécie",
         "Modelo",
         "Ano",
         "Cor",
